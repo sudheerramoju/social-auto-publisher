@@ -1,0 +1,15 @@
+{
+  "name": "social-auto-publisher",
+  "version": "1.0.0",
+  "description": "Multi-platform social media publisher for WordPress bloggers",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && nodemon src/server.js",
+    "client": "cd frontend && npm start",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": ["social-media", "automation", "wordpress", "saas"],
+  "author": "Visualwits",
+  "license": "MIT"
+}
